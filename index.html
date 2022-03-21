@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelloWorld JS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="index.js"></script>
+
+</head>
+<body onload="init()">
+  <!-- <div class="bg-vid"></div> -->
+  <video autoplay muted loop id="background-movie">
+    <source src="/movie1.mp4" type="video/mp4">
+  </video>
+  <script>
+    function init() {
+      let heading = document.createElement('h1');
+      let a = document.createElement('a');
+      a.style.color = 'limegreen'
+      a.href = 'https://lewispowers.com'
+      heading.textContent = `Welcome`;
+      a.append(heading)
+      document.body.append(a);
+    }
+  </script>
+</body>
+</html>
