@@ -1,5 +1,10 @@
 export default (function() {
-  return zeroThree() === 0 ? '' : zeroThree() === 1 ? '!' : zeroThree() === 2 ? '!!' : zeroThree() === 3 ? '!!!' : '🌎';
+  let randomNum = zeroThree();
+  return randomNum === 0 ? '' :
+  randomNum === 1 ? '!' :
+  randomNum === 2 ? '!!' :
+  randomNum === 3 ? '!!!' :
+  '🌎';
 })()
 
 function zeroThree() {
