@@ -20,6 +20,7 @@ function word() {
     '',
     'Massive',
     'Impressive',
+    ''
   ];
   let randomIdx = Math.floor(Math.random() * (words.length - 1) );
   window.wordIndex = randomIdx;
