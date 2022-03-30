@@ -8,5 +8,4 @@ import exclaim from '/third.js';
   let heading = document.createElement('h1');
   heading.textContent = message;
   document.body.append(heading);
-
 })()
