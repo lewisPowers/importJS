@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/client/repositories/importJS/
+    - /bin/cp -R importJS $DEPLOYPATH
